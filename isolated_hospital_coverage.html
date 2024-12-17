@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_49e2b92c6fa926a7d6eb908415a538e1 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_49e2b92c6fa926a7d6eb908415a538e1" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_49e2b92c6fa926a7d6eb908415a538e1 = L.map(
+                "map_49e2b92c6fa926a7d6eb908415a538e1",
+                {
+                    center: [40.7128, -74.006],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ab9ad2537d19b770318d8cdaaa12e610 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_ab9ad2537d19b770318d8cdaaa12e610.addTo(map_49e2b92c6fa926a7d6eb908415a538e1);
+        
+    
+            var marker_a961a6635a7288571dc0b6c15068204b = L.marker(
+                [44.70002, -73.47065],
+                {}
+            ).addTo(map_49e2b92c6fa926a7d6eb908415a538e1);
+        
+    
+            var icon_3aee85c7b27cd771e9e8c28c3670f8d2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a961a6635a7288571dc0b6c15068204b.setIcon(icon_3aee85c7b27cd771e9e8c28c3670f8d2);
+        
+    
+        var popup_c8e641e392747c03429a8a1ae93dfcd0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_27740b8215ffbdabcb5a81fb04c44f56 = $(`<div id="html_27740b8215ffbdabcb5a81fb04c44f56" style="width: 100.0%; height: 100.0%;">CHAMPLAIN VALLEY PHYSICIANS HOSPITAL MEDICAL CTR - Coverage Radius: 17.00 miles</div>`)[0];
+                popup_c8e641e392747c03429a8a1ae93dfcd0.setContent(html_27740b8215ffbdabcb5a81fb04c44f56);
+            
+        
+
+        marker_a961a6635a7288571dc0b6c15068204b.bindPopup(popup_c8e641e392747c03429a8a1ae93dfcd0)
+        ;
+
+        
+    
+    
+            var circle_86c9ee448e4ee9fe196d0d5e657320e3 = L.circle(
+                [44.70002, -73.47065],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 27353.777237145852, "stroke": true, "weight": 3}
+            ).addTo(map_49e2b92c6fa926a7d6eb908415a538e1);
+        
+    
+            var marker_2a6d0a5cf3faf8c9351e8044f18c039f = L.marker(
+                [43.45401, -76.5161],
+                {}
+            ).addTo(map_49e2b92c6fa926a7d6eb908415a538e1);
+        
+    
+            var icon_b72e8a22c8bc1e6378350c698814567f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2a6d0a5cf3faf8c9351e8044f18c039f.setIcon(icon_b72e8a22c8bc1e6378350c698814567f);
+        
+    
+        var popup_9125b949be3b6cc2cd094575156e30a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a45913bb7830931cfb42d464c7051843 = $(`<div id="html_a45913bb7830931cfb42d464c7051843" style="width: 100.0%; height: 100.0%;">OSWEGO HOSPITAL - Coverage Radius: 16.57 miles</div>`)[0];
+                popup_9125b949be3b6cc2cd094575156e30a5.setContent(html_a45913bb7830931cfb42d464c7051843);
+            
+        
+
+        marker_2a6d0a5cf3faf8c9351e8044f18c039f.bindPopup(popup_9125b949be3b6cc2cd094575156e30a5)
+        ;
+
+        
+    
+    
+            var circle_3b5b4e4d27740e400d7919eed8fff61f = L.circle(
+                [43.45401, -76.5161],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 26668.90702262092, "stroke": true, "weight": 3}
+            ).addTo(map_49e2b92c6fa926a7d6eb908415a538e1);
+        
+    
+            var marker_85e23cc8de457a5eb0fba48f1abb2e9f = L.marker(
+                [44.85745, -74.29143],
+                {}
+            ).addTo(map_49e2b92c6fa926a7d6eb908415a538e1);
+        
+    
+            var icon_4618f1719299f606b215d507016c6da7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_85e23cc8de457a5eb0fba48f1abb2e9f.setIcon(icon_4618f1719299f606b215d507016c6da7);
+        
+    
+        var popup_6647a6d696e6df601cb34f69b289de5e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dcaee2693f2355b411e66e1b2c12b997 = $(`<div id="html_dcaee2693f2355b411e66e1b2c12b997" style="width: 100.0%; height: 100.0%;">ALICE HYDE MEDICAL CENTER - Coverage Radius: 15.40 miles</div>`)[0];
+                popup_6647a6d696e6df601cb34f69b289de5e.setContent(html_dcaee2693f2355b411e66e1b2c12b997);
+            
+        
+
+        marker_85e23cc8de457a5eb0fba48f1abb2e9f.bindPopup(popup_6647a6d696e6df601cb34f69b289de5e)
+        ;
+
+        
+    
+    
+            var circle_c9c4dc2e4bdc0f424aaf9be500415c7e = L.circle(
+                [44.85745, -74.29143],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24785.950923017856, "stroke": true, "weight": 3}
+            ).addTo(map_49e2b92c6fa926a7d6eb908415a538e1);
+        
+    
+            var marker_9c5dce25f9cae287569c9a1ce8d47f40 = L.marker(
+                [44.34467, -74.14315],
+                {}
+            ).addTo(map_49e2b92c6fa926a7d6eb908415a538e1);
+        
+    
+            var icon_f060b68f946acf640319e800231f7f93 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9c5dce25f9cae287569c9a1ce8d47f40.setIcon(icon_f060b68f946acf640319e800231f7f93);
+        
+    
+        var popup_0192ad3971a1fa189d08b49bc79d7f19 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f83caf911916f8b2095a851107a9070 = $(`<div id="html_4f83caf911916f8b2095a851107a9070" style="width: 100.0%; height: 100.0%;">ADIRONDACK MEDICAL CENTER - Coverage Radius: 14.27 miles</div>`)[0];
+                popup_0192ad3971a1fa189d08b49bc79d7f19.setContent(html_4f83caf911916f8b2095a851107a9070);
+            
+        
+
+        marker_9c5dce25f9cae287569c9a1ce8d47f40.bindPopup(popup_0192ad3971a1fa189d08b49bc79d7f19)
+        ;
+
+        
+    
+    
+            var circle_aff4ae87284b89c9a17462be922cbdae = L.circle(
+                [44.34467, -74.14315],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 22967.78737838335, "stroke": true, "weight": 3}
+            ).addTo(map_49e2b92c6fa926a7d6eb908415a538e1);
+        
+    
+            var marker_38bbbf00ec60d2b25c8627828824f828 = L.marker(
+                [44.21599, -73.5963],
+                {}
+            ).addTo(map_49e2b92c6fa926a7d6eb908415a538e1);
+        
+    
+            var icon_cbbd276a7822f990be492156a9fa67bd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_38bbbf00ec60d2b25c8627828824f828.setIcon(icon_cbbd276a7822f990be492156a9fa67bd);
+        
+    
+        var popup_142fc7df5bdff63a5edc349a51684722 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b387d06d04ee88e149892cb5c824bdb3 = $(`<div id="html_b387d06d04ee88e149892cb5c824bdb3" style="width: 100.0%; height: 100.0%;">ELIZABETHTOWN COMMUNITY HOSPITAL - Coverage Radius: 13.27 miles</div>`)[0];
+                popup_142fc7df5bdff63a5edc349a51684722.setContent(html_b387d06d04ee88e149892cb5c824bdb3);
+            
+        
+
+        marker_38bbbf00ec60d2b25c8627828824f828.bindPopup(popup_142fc7df5bdff63a5edc349a51684722)
+        ;
+
+        
+    
+    
+            var circle_11cdc2b9ec6279aadc25cbfa8a341a3e = L.circle(
+                [44.21599, -73.5963],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 21354.465887133076, "stroke": true, "weight": 3}
+            ).addTo(map_49e2b92c6fa926a7d6eb908415a538e1);
+        
+    
+            var marker_b5efffb75dbe38896e4b470aa907d871 = L.marker(
+                [43.84918, -73.43708],
+                {}
+            ).addTo(map_49e2b92c6fa926a7d6eb908415a538e1);
+        
+    
+            var icon_eb78ce115249a66095d6db7f26c5525a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b5efffb75dbe38896e4b470aa907d871.setIcon(icon_eb78ce115249a66095d6db7f26c5525a);
+        
+    
+        var popup_730eb1e464df559724e352adfe9d5a3f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f75c1d476aa18a96af464666ccebf974 = $(`<div id="html_f75c1d476aa18a96af464666ccebf974" style="width: 100.0%; height: 100.0%;">MOSES-LUDINGTON HOSPITAL - Coverage Radius: 13.27 miles</div>`)[0];
+                popup_730eb1e464df559724e352adfe9d5a3f.setContent(html_f75c1d476aa18a96af464666ccebf974);
+            
+        
+
+        marker_b5efffb75dbe38896e4b470aa907d871.bindPopup(popup_730eb1e464df559724e352adfe9d5a3f)
+        ;
+
+        
+    
+    
+            var circle_0ba63225f2acff34bd1b238835055289 = L.circle(
+                [43.84918, -73.43708],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 21354.465887133076, "stroke": true, "weight": 3}
+            ).addTo(map_49e2b92c6fa926a7d6eb908415a538e1);
+        
+    
+            var marker_15c7ba1bd78de93583084568ffce8709 = L.marker(
+                [44.69146, -75.50024],
+                {}
+            ).addTo(map_49e2b92c6fa926a7d6eb908415a538e1);
+        
+    
+            var icon_9abf54c609fbdd973657dcff617a319e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_15c7ba1bd78de93583084568ffce8709.setIcon(icon_9abf54c609fbdd973657dcff617a319e);
+        
+    
+        var popup_433423911075c604b3129b41edb68d96 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a55b90a0014d058b06a45cb3ee00fea3 = $(`<div id="html_a55b90a0014d058b06a45cb3ee00fea3" style="width: 100.0%; height: 100.0%;">CLAXTON-HEPBURN MEDICAL CENTER - Coverage Radius: 12.23 miles</div>`)[0];
+                popup_433423911075c604b3129b41edb68d96.setContent(html_a55b90a0014d058b06a45cb3ee00fea3);
+            
+        
+
+        marker_15c7ba1bd78de93583084568ffce8709.bindPopup(popup_433423911075c604b3129b41edb68d96)
+        ;
+
+        
+    
+    
+            var circle_feb3a1b9aeb44c2708852ccceae28540 = L.circle(
+                [44.69146, -75.50024],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 19675.57546787448, "stroke": true, "weight": 3}
+            ).addTo(map_49e2b92c6fa926a7d6eb908415a538e1);
+        
+    
+            var marker_a84f066febaac88c1787689d5c966a23 = L.marker(
+                [44.16255, -75.05618],
+                {}
+            ).addTo(map_49e2b92c6fa926a7d6eb908415a538e1);
+        
+    
+            var icon_222a04f5c1cab3c0543d16cc2059d9d8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a84f066febaac88c1787689d5c966a23.setIcon(icon_222a04f5c1cab3c0543d16cc2059d9d8);
+        
+    
+        var popup_cb21caebc4e3338ee3f5a4505f309875 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc7e31b9422f604fb007ed4887950366 = $(`<div id="html_dc7e31b9422f604fb007ed4887950366" style="width: 100.0%; height: 100.0%;">CLIFTON FINE HOSPITAL - Coverage Radius: 12.01 miles</div>`)[0];
+                popup_cb21caebc4e3338ee3f5a4505f309875.setContent(html_dc7e31b9422f604fb007ed4887950366);
+            
+        
+
+        marker_a84f066febaac88c1787689d5c966a23.bindPopup(popup_cb21caebc4e3338ee3f5a4505f309875)
+        ;
+
+        
+    
+    
+            var circle_57455f5b168a15398ff52014b600cdf2 = L.circle(
+                [44.16255, -75.05618],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 19330.282940377954, "stroke": true, "weight": 3}
+            ).addTo(map_49e2b92c6fa926a7d6eb908415a538e1);
+        
+    
+            var marker_66c338212c3c163b2282d1249462cf4f = L.marker(
+                [42.09126, -79.23276],
+                {}
+            ).addTo(map_49e2b92c6fa926a7d6eb908415a538e1);
+        
+    
+            var icon_bd18c605dbf250f2e2d054f1373bc04a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_66c338212c3c163b2282d1249462cf4f.setIcon(icon_bd18c605dbf250f2e2d054f1373bc04a);
+        
+    
+        var popup_993a7af010a0b32cb36992673528225f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a56f01de52d9deb9d1005c181e6c1c3f = $(`<div id="html_a56f01de52d9deb9d1005c181e6c1c3f" style="width: 100.0%; height: 100.0%;">WOMAN'S CHRISTIAN ASSOCIATION - Coverage Radius: 11.90 miles</div>`)[0];
+                popup_993a7af010a0b32cb36992673528225f.setContent(html_a56f01de52d9deb9d1005c181e6c1c3f);
+            
+        
+
+        marker_66c338212c3c163b2282d1249462cf4f.bindPopup(popup_993a7af010a0b32cb36992673528225f)
+        ;
+
+        
+    
+    
+            var circle_103cf21840c5d18912759ef4d363804b = L.circle(
+                [42.09126, -79.23276],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 19150.404359158085, "stroke": true, "weight": 3}
+            ).addTo(map_49e2b92c6fa926a7d6eb908415a538e1);
+        
+    
+            var marker_87cdf794c7506ff1a827a0d322f2d2ac = L.marker(
+                [42.2462, -73.77798],
+                {}
+            ).addTo(map_49e2b92c6fa926a7d6eb908415a538e1);
+        
+    
+            var icon_e7117e30e407ca5b0e1c3ce8eed68e99 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_87cdf794c7506ff1a827a0d322f2d2ac.setIcon(icon_e7117e30e407ca5b0e1c3ce8eed68e99);
+        
+    
+        var popup_081bcdf6dc41063c409da6b0959b444f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_64e087ad29ccbae45d303a325635d7f3 = $(`<div id="html_64e087ad29ccbae45d303a325635d7f3" style="width: 100.0%; height: 100.0%;">COLUMBIA MEMORIAL HOSPITAL - Coverage Radius: 11.29 miles</div>`)[0];
+                popup_081bcdf6dc41063c409da6b0959b444f.setContent(html_64e087ad29ccbae45d303a325635d7f3);
+            
+        
+
+        marker_87cdf794c7506ff1a827a0d322f2d2ac.bindPopup(popup_081bcdf6dc41063c409da6b0959b444f)
+        ;
+
+        
+    
+    
+            var circle_b92c63a9421a0dcdc5113ee1e98a7cc4 = L.circle(
+                [42.2462, -73.77798],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18164.77501815202, "stroke": true, "weight": 3}
+            ).addTo(map_49e2b92c6fa926a7d6eb908415a538e1);
+        
+</script>
+</html>
